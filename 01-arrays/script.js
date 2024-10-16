@@ -14,16 +14,17 @@ const fourthTeacher = teachers[3];
 console.log (fourthTeacher)
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-let fifthTeacher = teachers[4]
-fifthTeacher = 'Patrick'
-console.log (fifthTeacher)
+//let fifthTeacher = teachers[4] // Carlo
+//fifthTeacher = 'Patrick' // Patick
+teachers[0] = 'Pippo';
+console.log (teachers)
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = teachers.pop(teachers.lenght);
+const lastTeacher = teachers.pop();
 console.log (lastTeacher)
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = teachers.shift(0);
+const firstTeacher = teachers.shift();
 console.log (teachers)
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
