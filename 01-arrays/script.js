@@ -16,7 +16,7 @@ console.log (fourthTeacher)
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 //let fifthTeacher = teachers[4] // Carlo
 //fifthTeacher = 'Patrick' // Patick
-teachers[0] = 'Pippo';
+teachers[4] = 'Patrick';
 console.log (teachers)
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
@@ -47,7 +47,7 @@ console.log (lewisIndex)
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = teachers.toString();
+const teachersString = teachers.join(, ); + '.' // AGGIUNGO IL PUNTO PERCHE COMUNQUE IL METODO MI  DA UNA STRINGA
 console.log (teachersString)
 
 // 10. Verifica se l'array teachers è vuoto
